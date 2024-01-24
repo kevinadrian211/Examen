@@ -1,3 +1,1 @@
-# Rick
-# Rick
-# Morty
+Para la prueba de conexión con la api de Rick and Morty primero se crea una interfaz llamada RickAndMortyCharacter que es la que define la estructura de personajes de Rick y Morty. En esta interfaz define las propiedades que vamos a pedir a la api, como ID, nombre y género. Luego, dentro del script principal importamos esta interfaz y usamos la biblioteca Axios para llamar a la API de Rick and Morty. La función FetchRickAndMortyCharacter envía una solicitud a la API para obtener datos sobre un carácter específico utilizando la URL y el ID de la API. La respuesta que se obtiene: si tiene éxito, los datos del carácter se extraen e imprimen; Si hay errores, se procesarán y se mostrarán mensajes específicos en la consola, como el de"Error fetching Rick and Morty character:', error.message".
